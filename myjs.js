@@ -1,8 +1,8 @@
 var chatStr = "";
 
 function replaceEmojis(){
-    chatStr = chatStr.replace("feelsbadman", "<img class ='emoji' src='img/feelsbadman.png' />");
     chatStr = chatStr.replace(":(", "<img class ='emoji' src='img/feelsbadman.png' />");
+    chatStr = chatStr.replace("feelsbadman", "<img class ='emoji' src='img/feelsbadman.png' />");
     
     chatStr = chatStr.replace("kappa", "<img class ='emoji' src='img/kappa.png' />");
     chatStr = chatStr.replace(":)", "<img class ='emoji' src='img/kappa.png' />");
